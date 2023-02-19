@@ -1,4 +1,4 @@
-#include<studio.h>
+#include <studio.h>
 /**
  * main -Using function puts to print a line
  * Return:Return(0)
