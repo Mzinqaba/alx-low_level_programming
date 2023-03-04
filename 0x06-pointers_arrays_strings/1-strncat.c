@@ -8,7 +8,7 @@
  * @n: input value
  * Return: dest
  */
-char _*strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n);
 {
 	int i;
 	int j;
@@ -27,5 +27,5 @@ char _*strncat(char *dest, char *src, int n)
 	}
 
 	dest[i] = '\0';
-	return (dest)
+	return (dest);
 }
